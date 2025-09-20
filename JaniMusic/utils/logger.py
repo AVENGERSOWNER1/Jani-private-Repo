@@ -5,8 +5,8 @@ from JaniMusic.misc import SUDOERS
 import asyncio
 from pyrogram import Client, filters, enums
 from pyrogram.types import Message
-from IstkharMusic import app, Userbot
-from IstkharMusic.utils.database import get_assistant
+from JaniMusic import app, Userbot
+from JaniMusic.utils.database import get_assistant
 from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant, ChatAdminRequired
 from pyrogram.types import Message, ChatPrivileges
 import asyncio
@@ -14,8 +14,8 @@ from typing import Optional
 from random import randint
 from pyrogram.raw.types import InputGroupCall, InputPeerChannel, InputPeerChat
 from pyrogram.enums import ParseMode
-from IstkharMusic import app
-from IstkharMusic.utils.database import is_on_off
+from JaniMusic import app
+from JaniMusic.utils.database import is_on_off
 from config import LOGGER_ID as LOG_GROUP_ID
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
